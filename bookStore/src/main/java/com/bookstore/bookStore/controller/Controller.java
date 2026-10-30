@@ -17,7 +17,7 @@ public class Controller {
     private MyBookService myBookService;
     @Autowired
     private BookService service;
-    @GetMapping({"/home"})
+    @GetMapping({"/","/home"})
     public String home(){
         return "home";
     }
